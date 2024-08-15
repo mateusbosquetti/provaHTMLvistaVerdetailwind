@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sobre Nós</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+
+<body class="bg-gray-50 text-gray-900">
+    <header class="flex justify-between items-center bg-[#2C2010] p-4 text-white">
+        <img src="/style/img/logo-vista-verde.png" alt="Logo" class="h-16 w-auto max-w-24">
+        <div class="flex gap-6 text-xl">
+            <a href="/index.html" class="hover:underline">Home</a>
+            <a href="/sobreNos.html" class="hover:underline">Sobre Nós</a>
+            <a href="/produtos.html" class="hover:underline">Produto</a>
+        </div>
+    </header>
+
+    <main class="p-6">
+        <section class="flex flex-col items-center text-center md:flex-row md:justify-center md:gap-10 md:text-left">
+            <img src="/style/img/vista-verde-2000.jpg" alt="Fachada da primeira loja da Vista Verde" class="w-full md:w-1/3 mb-4 md:mb-0 shadow-lg">
+            <article class="md:w-2/3 p-4">
+                <h2 class="text-2xl font-semibold mb-4">História</h2>
+                <p class="text-base">Fundada em 2000, a Vista Verde começou como um pequeno viveiro local. Hoje, somos líderes no mercado de plantas ornamentais, com clientes em todo o país.</p>
+            </article>
+        </section>
+
+        <section class="flex flex-col items-center text-center md:flex-row-reverse md:justify-center md:gap-10 md:text-left">
+            <img src="/style/img/missao.jpg" alt="Cliente feliz com um vaso de uma planta" class="w-full md:w-1/3 mb-4 md:mb-0 shadow-lg">
+            <article class="md:w-2/3 p-4">
+                <h2 class="text-2xl font-semibold mb-4">Missão</h2>
+                <p class="text-base">Nossa missão é enriquecer a vida das pessoas, trazendo elementos naturais para mais perto delas, através de produtos de alta qualidade e serviços excepcionais.</p>
+            </article>
+        </section>
+
+        <section class="flex flex-col items-center text-center md:flex-row md:justify-center md:gap-10 md:text-left">
+            <img src="/style/img/valores.jpg" alt="Funcionário da Vista Verde com um vaso de uma planta ornamental" class="w-full md:w-1/3 mb-4 md:mb-0 shadow-lg">
+            <article class="md:w-2/3 p-4">
+                <h2 class="text-2xl font-semibold mb-4">Valores</h2>
+                <p class="text-base">Comprometimento com a sustentabilidade, paixão pela beleza natural e excelência no atendimento ao cliente são os pilares que nos guiam.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer class="bg-[#2A2010] text-white text-center p-4">
+        <p class="text-lg">Vista Verde - 2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
+
 </html>

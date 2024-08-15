@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Produtos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+
+<body class="bg-gray-50 text-gray-900">
+    <header class="flex justify-between items-center bg-[#2c2010] text-white p-4">
+        <img src="/style/img/logo-vista-verde.png" alt="Logo" class="w-24 h-auto max-w-xs">
+        <div class="flex gap-6">
+            <a href="/index.html" class="text-xl hover:underline">Home</a>
+            <a href="/sobreNos.html" class="text-xl hover:underline">Sobre Nós</a>
+            <a href="/produtos.html" class="text-xl underline">Produtos</a>
+        </div>
+    </header>
+    <main class="p-5 mx-8 my-5">
+        <h1 class="text-center text-4xl md:text-5xl mb-6">Produtos</h1>
+        <section class="section-products">
+            <div class="productsDesk flex flex-col md:flex-row justify-between mb-5">
+                <div class="product mb-5 md:mb-0">
+                    <img src="/style/img/ficus-capa.jpg" alt="Capa Ficus" class="w-9/12 h-auto mx-auto shadow-lg">
+                    <p class="text-center text-2xl mt-3">Ficus Lyrata</p>
+                    <div class="button">
+                        <a href="produto1.html" class="block text-center text-white bg-green-700 hover:bg-green-600 py-2 px-4 rounded-full w-7/12 mx-auto mt-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product mb-5 md:mb-0">
+                    <img src="/style/img/areca-capa.jpg" alt="Capa Areca" class="w-9/12 h-auto mx-auto shadow-lg">
+                    <p class="text-center text-2xl mt-3">Areca Palmeira</p>
+                    <div class="button">
+                        <a href="produto2.html" class="block text-center text-white bg-green-700 hover:bg-green-600 py-2 px-4 rounded-full w-7/12 mx-auto mt-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="productsDesk flex flex-col md:flex-row justify-between">
+                <div class="product mb-5 md:mb-0">
+                    <img src="/style/img/espada-capa.jpg" alt="Capa Espada" class="w-9/12 h-auto mx-auto shadow-lg">
+                    <p class="text-center text-2xl mt-3">Serpente Planta</p>
+                    <div class="button">
+                        <a href="produto3.html" class="block text-center text-white bg-green-700 hover:bg-green-600 py-2 px-4 rounded-full w-7/12 mx-auto mt-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product mb-5 md:mb-0">
+                    <img src="/style/img/phalaenopsis-capa.jpg" alt="Capa Phalaenopsis" class="w-9/12 h-auto mx-auto shadow-lg">
+                    <p class="text-center text-2xl mt-3">Orquídea Phalaenopsis</p>
+                    <div class="button">
+                        <a href="produto4.html" class="block text-center text-white bg-green-700 hover:bg-green-600 py-2 px-4 rounded-full w-7/12 mx-auto mt-4">
+                            Saiba Mais
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-[#2a2010] text-white text-center p-4 text-lg">
+        <p>Vista Verde - 2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
+
 </html>
