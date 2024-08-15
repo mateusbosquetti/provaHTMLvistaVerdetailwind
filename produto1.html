@@ -4,63 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://unpkg.com/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>Ficus Lyrata</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-
-<body>
-    <header class="bg-yellow-800  md:flex">
-        <div>
-            <img src="/img/logo-vista-verde.png" alt="Logo" class="logo">
-        </div>
-        <div class="flex text-center justify-center	gap-4 bg-yellow-800 text-white">
-            <a href="/index.html"><u>Home</u></a>
-            <a href="/sobreNos.html">Sobre Nós</a>
-            <a href="/produtos.html">Produto</a>
+<body class="bg-gray-50 text-gray-900">
+    <header class="flex justify-between items-center bg-[#2c2010] text-white p-4">
+        <img src="/style/img/logo-vista-verde.png" alt="Logo" class="w-24 h-auto max-w-xs">
+        <div class="flex gap-6">
+            <a href="/index.html" class="text-xl hover:underline">Home</a>
+            <a href="/sobreNos.html" class="text-xl hover:underline">Sobre Nós</a>
+            <a href="/produtos.html" class="text-xl hover:underline">Produtos</a>
         </div>
     </header>
-    <main>
-        <section class="">
-            <h1>Beleza Natural em Seu Espaço</h1>
-            <div class="button">
-                <a href="#">Saiba Mais</a>
-            </div>
-        </section>
-        <div class="div-info">
-            <img src="/style/img/vista-verde.jpg" alt="Loja da Vista Verde Plantas Ornamentais.">
-            <p>A Vista Verde é especialista em trazer vida aos ambientes através de plantas
-                ornamentais selecionadas. Com mais de 20 anos de experiência, oferecemos soluções
-                verdes personalizadas para lares e escritórios. Conecte-se com a natureza onde você
-                estiver</p>
-        </div>
-        <h3>Produtos</h3>
-        <div class="productsDesk">
-            <div class="product">
-                <img src="/style/img/ficus-capa.jpg" alt="">
-                <p>Ficus Lyrata</p>
-                <div class="button">
-                    <a href="produto1.html">Saiba Mais</a>
-                </div>
-            </div>
 
-            <div class="product">
-                <img src="/style/img/areca-capa.jpg" alt="">
-                <p>Areca Palmeira</p>
-                <div class="button">
-                    <a href="produto2.html">Saiba Mais</a>
-                </div>
+    <main class="mx-8 mt-10 mb-4">
+        <div class="flex flex-col md:flex-row items-center gap-10 mb-10">
+            <img src="/style/img/ficus-capa.jpg" alt="Ficus Capa" class="w-5/12 max-w-xs shadow-md">
+            <div class="text-center md:text-left">
+                <p class="text-3xl font-bold mb-4">Ficus Lyrata</p>
+                <p class="text-lg mb-4">O Ficus Lyrata, também conhecido como Figueira-lira, é uma planta elegante que se destaca em qualquer ambiente. Com suas grandes folhas verdes brilhantes, é perfeita para interiores e requer cuidados moderados.</p>
+                <p class="text-lg">Altura: cerca de 1,2 metros. Necessita de luz indireta e regas regulares sem encharcamento</p>
             </div>
         </div>
-        <div class="button">
-            <a href="/produtos.html">Saiba Mais</a>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 justify-items-center">
+            <div class="mb-5">
+                <img src="/style/img/ficus1.jpg" alt="Ficus imagem 1" class="w-11/12 shadow-md">
+            </div>
+            <div class="mb-5">
+                <img src="/style/img/ficus2.jpg" alt="Ficus imagem 2" class="w-11/12 shadow-md">
+            </div>
+            <div class="mb-5">
+                <img src="/style/img/ficus3.jpg" alt="Ficus imagem 3" class="w-11/12 shadow-md">
+            </div>
         </div>
     </main>
-    <footer>
+
+    <footer class="bg-[#2a2010] text-white text-center p-4 text-lg">
         <p>Vista Verde - 2024 - Todos os direitos reservados</p>
     </footer>
-
 </body>
-
 
 </html>

@@ -1,11 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Vista Verde</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+
+<body class="font-sans antialiased text-gray-800">
+    <header class="flex justify-between items-center bg-[#2C2010] p-4 text-white">
+        <img src="/style/img/logo-vista-verde.png" alt="Logo" class="h-16 w-auto max-w-24">
+        <div class="flex gap-6 text-xl">
+            <a href="/index.html" class="hover:underline">Home</a>
+            <a href="/sobreNos.html" class="hover:underline">Sobre Nós</a>
+            <a href="/produtos.html" class="hover:underline">Produto</a>
+        </div>
+    </header>
+
+    <main class="mb-28">
+        <section class="relative flex items-center justify-center h-[30vh] bg-cover bg-center" style="background-image: url(/style/img/banner.jpg);">
+            <h1 class="text-5xl sm:text-6xl text-white drop-shadow-lg">Beleza Natural em Seu Espaço</h1>
+        </section>
+
+        <div class="p-8 text-center md:flex md:gap-10 md:justify-center">
+            <img src="/style/img/vista-verde.jpg" alt="Loja da Vista Verde Plantas Ornamentais." class="mx-auto md:w-1/2 md:order-2 shadow-lg">
+            <p class="mt-5 text-xl md:mt-0 md:text-justify md:w-1/2 md:order-1">
+                A Vista Verde é especialista em trazer vida aos ambientes através de plantas ornamentais selecionadas.
+                Com mais de 20 anos de experiência, oferecemos soluções verdes personalizadas para lares e escritórios.
+                Conecte-se com a natureza onde você estiver.
+            </p>
+        </div>
+
+        <h3 class="text-4xl text-center mt-10 mb-10">Produtos</h3>
+
+        <div class="text-center flex flex-col md:flex-row gap-8 justify-center mb-20">
+            <div class="product flex flex-col items-center">
+                <img src="/style/img/ficus-capa.jpg" alt="Ficus Lyrata" class="w-1/2 shadow-lg">
+                <p class="mt-2 text-2xl">Ficus Lyrata</p>
+                <div class="mt-4">
+                    <a href="produto1.html" class="px-4 py-2 text-white bg-green-600 rounded-full hover:bg-green-700">Saiba Mais</a>
+                </div>
+            </div>
+
+            <div class="product flex flex-col items-center">
+                <img src="/style/img/areca-capa.jpg" alt="Areca Palmeira" class="w-1/2 shadow-lg">
+                <p class="mt-2 text-2xl">Areca Palmeira</p>
+                <div class="mt-4">
+                    <a href="produto2.html" class="px-4 py-2 text-white bg-green-600 rounded-full hover:bg-green-700">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-center mt-8">
+            <a href="/produtos.html" class="px-8 py-4 text-white bg-green-600 rounded-full hover:bg-green-700">Saiba Mais</a>
+        </div>
+    </main>
+
+    <footer class="bg-[#2A2010] text-white text-center p-4 text-lg">
+        <p>Vista Verde - 2024 - Todos os direitos reservados</p>
+    </footer>
 </body>
+
 </html>
